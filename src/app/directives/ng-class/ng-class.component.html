@@ -1,0 +1,13 @@
+<div (click)="allume =! allume" [ngClass]="{
+  'lampe' : allume
+}">
+  Lampe
+</div>
+
+<p appHighlight>
+  test Directive
+</p>
+
+<p appHighlight  [in]="'red'" [out]="'yellow'">
+  test Directive
+</p>
