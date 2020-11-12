@@ -1,7 +1,13 @@
-<ul class="list-group">
+<ol class="list-group">
+  <li *ngFor="let personne of personnes; let color=odd"
+  class="list-group-item"
+  [ngClass]="{
+    'list-groip-item-danger': color,
+    'list-groip-item-warning': !color}
+    ">
   <app-item
-    *ngFor="let personne of personnes"
     (selectItem)="sendItem($event)"
     [personne]="personne"
   ></app-item>
-</ul>
+</li>
+</ol>

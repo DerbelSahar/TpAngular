@@ -11,9 +11,9 @@ export class CvService {
       new Personne(1, 'aymen',
         'sellaouti', 37, 'as.jpg', 777777, 'teacher' ),
       new Personne(2, 'ahmed',
-        'mohamed', 27, 'zizou.jpeg', 11111, 'coach' ),
+        'mohamed', 27, 'as.jpg', 11111, 'coach' ),
       new Personne(3, 'Ammar',
-        'ali', 27, '       ', 11111, '404' ),
+        'ali', 27, '    ', 11111, '404' ),
     ];
   }
 

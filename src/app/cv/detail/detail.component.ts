@@ -13,7 +13,9 @@ export class DetailComponent implements OnInit {
     private router: Router
   ) { }
 
-  ngOnInit() {
+  ngOnInit(
+  ) {
+    console.log(this.personne.path);
   }
 
   goToDetails() {

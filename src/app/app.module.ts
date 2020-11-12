@@ -17,13 +17,27 @@ import { NgClassComponent } from './directives/ng-class/ng-class.component';
 import { HighlightDirective } from './highlight.directive';
 import { RainbowDirective } from './rainbow.directive';
 import { RainbowComponentComponent } from './components/rainbow-component/rainbow-component.component';
+import { CvComponent } from './cv/cv/cv.component';
+import { ItemComponent } from './cv/item/item.component';
+import { ListComponent } from './cv/list/list.component'
+import { DetailComponent } from './cv/detail/detail.component';
+import { DefaultImagePipe } from './cv/default-image.pipe';
+import { TodoComponent } from './components/todo/todo.component';
+import { TodoListComponent } from './components/todo/todo-list/todo-list.component';
+import { TodoFormComponent } from './components/todo/todo-form/todo-form.component';
+import { TodoPageComponent } from './components/todo/todo-page/todo-page.component';
 @NgModule({
+
   declarations: [
     AppComponent,
     FirstComponent,
     SecondComponent,
     ColorComponent,
     TwoComponent,
+    CvComponent,
+    ItemComponent,
+    ListComponent,
+    DetailComponent ,
     CardComponent,
     PereComponent,
     FilsComponent,
@@ -32,7 +46,12 @@ import { RainbowComponentComponent } from './components/rainbow-component/rainbo
     NgClassComponent,
     HighlightDirective,
     RainbowDirective,
-    RainbowComponentComponent
+    RainbowComponentComponent,
+    DefaultImagePipe,
+    TodoComponent,
+    TodoListComponent,
+    TodoFormComponent,
+    TodoPageComponent
   ],
   imports: [
     BrowserModule,

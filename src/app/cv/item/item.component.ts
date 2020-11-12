@@ -8,7 +8,7 @@ import {Personne} from "../Model/personne";
 })
 export class ItemComponent implements OnInit {
 
-  @Input() personne: Personne; // f()
+  @Input() personne: Personne; 
   @Output() selectItem = new EventEmitter();
   constructor() { }
 
