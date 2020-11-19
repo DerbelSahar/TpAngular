@@ -26,6 +26,7 @@ import { TodoComponent } from './components/todo/todo.component';
 import { TodoListComponent } from './components/todo/todo-list/todo-list.component';
 import { TodoFormComponent } from './components/todo/todo-form/todo-form.component';
 import { TodoPageComponent } from './components/todo/todo-page/todo-page.component';
+import { EmbaucheComponent } from './cv/embauche/embauche.component';
 @NgModule({
 
   declarations: [
@@ -51,7 +52,8 @@ import { TodoPageComponent } from './components/todo/todo-page/todo-page.compone
     TodoComponent,
     TodoListComponent,
     TodoFormComponent,
-    TodoPageComponent
+    TodoPageComponent,
+    EmbaucheComponent
   ],
   imports: [
     BrowserModule,

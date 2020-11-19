@@ -3,5 +3,5 @@ name:
 <input type="text" class="form-control" [(ngModel)]="name" required>
 description:
 <input type="text" class="form-control" [(ngModel)]="description" required>
-<button type="button" class="btn btn-primary" (click)="addTodo()">Add</button>
+<button [disabled]="!name.trim().length || !description.trim().length" type="button" class="btn btn-primary" (click)="addTodo()">Add</button>
 </div>

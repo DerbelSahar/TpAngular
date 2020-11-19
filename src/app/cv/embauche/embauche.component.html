@@ -1,0 +1,13 @@
+
+
+<div style="border-style: solid; border-width:solid; border-color: #050000;" >
+    
+    <div *ngFor="let personne of embauchees; let isFirst = first"  >
+        <h5 *ngIf="isFirst">List des cvs sélectionnés pour embauche</h5>
+        <div horizontal layout>
+        <div class="column">
+            <app-item [personne]="personne"></app-item>
+        </div>
+    </div>
+    </div>
+</div>
