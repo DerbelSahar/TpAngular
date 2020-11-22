@@ -27,6 +27,11 @@ import { TodoListComponent } from './components/todo/todo-list/todo-list.compone
 import { TodoFormComponent } from './components/todo/todo-form/todo-form.component';
 import { TodoPageComponent } from './components/todo/todo-page/todo-page.component';
 import { EmbaucheComponent } from './cv/embauche/embauche.component';
+import { LoginComponent } from './pages/login/login.component';
+import { AdminComponent } from './admin/admin.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FrontComponent } from './front/front.component';
+import { RouterSimulatorComponent } from './router-simulator/router-simulator.component';
 @NgModule({
 
   declarations: [
@@ -53,7 +58,12 @@ import { EmbaucheComponent } from './cv/embauche/embauche.component';
     TodoListComponent,
     TodoFormComponent,
     TodoPageComponent,
-    EmbaucheComponent
+    EmbaucheComponent,
+    LoginComponent,
+    AdminComponent,
+    HeaderComponent,
+    FrontComponent,
+    RouterSimulatorComponent
   ],
   imports: [
     BrowserModule,
